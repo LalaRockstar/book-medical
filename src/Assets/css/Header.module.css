@@ -1,0 +1,90 @@
+.header{
+    min-height: 80vh;
+    
+    background: linear-gradient(to right,rgba(88, 78, 78, 0.815),rgba(70, 62, 62, 0.781)),url('../img/img2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   /* Add the blur effect */
+     /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    text-transform: uppercase;
+    
+
+    
+}
+
+
+
+
+.text__box{
+color:#fff
+}
+.text__1{
+animation: 2s ease-in-out moveRight;
+}
+.text__2{
+font-size: 2rem;
+font-weight: 800;
+letter-spacing: 1.2rem;
+animation: 3s ease-in 1s infinite reverse both running moveLeft;
+
+}
+.btn{
+padding: 2rem 3rem;
+color :aqua;
+font-size: 2rem;
+margin-top: 1.5rem;
+border-radius: 3rem;
+font-weight: 300;
+animation: 2s ease-in 1s moveUp;
+}
+.btn:hover{
+  color: #fff;
+  background-color: aqua;
+  
+}
+@keyframes moveUp{
+  0%{
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  80%{
+    transform: translateY(-10px);
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes moveRight{
+  0%{
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  80%{
+    transform: translateX(-10px);
+  }
+  100%{
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes moveLeft{
+  0%{
+    
+    opacity: 0;
+  }
+  80%{
+    transform: translateX(10px);
+  }
+  100%{
+   
+    opacity: 1;
+  }
+}

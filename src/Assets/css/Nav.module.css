@@ -1,0 +1,21 @@
+.main__bar{
+    min-height: 8rem;
+    
+    height: 10vh;
+    background-color: #233f8e8c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    color:#fff;
+    font-weight: 800;
+    width: 100vw;
+    
+    opacity: 1;
+    
+    
+    
+    
+
+
+}

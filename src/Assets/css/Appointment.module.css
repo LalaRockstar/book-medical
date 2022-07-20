@@ -1,0 +1,53 @@
+.container{
+    
+    grid-row: 1/-1;
+    grid-column: 5/9;
+ 
+
+
+
+    
+
+}
+.form__box{
+   margin: 2rem 2rem;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   height: 70vh;
+   border-radius: 2rem;
+   box-shadow: .2rem .4rem .2rem rgba(90, 85, 78, 0.466);
+   outline: rgba(90, 85, 78, 0.466);
+}
+.form__group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form__control{
+    height: 3rem;
+    width: 60%;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+  
+
+.btn{
+padding: 1rem 2rem;
+color :blue;
+font-size: 2rem;
+margin-top: 1.5rem;
+border-radius: 2rem;
+font-weight: 300;
+}
+.add__appointment{
+    grid-column: com-2-start/com-2-end;
+    grid-row: 1/4;
+    background-color: rgba(138, 231, 231, 0.212);
+}
+.appointment__list{
+    grid-column: com-1-start/com-1-end;
+    grid-row: 1/4;
+    background-color: rgba(138, 231, 231, 0.212);
+    overflow-y: scroll;
+}

@@ -1,0 +1,6 @@
+.sidebar{
+background-color: #CCCCCC;
+ grid-column: sidebar-start/sidebar-end;
+ grid-row: 3/-1;
+ 
+}

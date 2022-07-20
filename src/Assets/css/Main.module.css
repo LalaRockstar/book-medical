@@ -1,0 +1,15 @@
+.main {
+    /* background-color: rgba(138, 231, 231, 0.212); */
+    grid-column: full-start/full-end;
+    grid-row: 3/-1;
+    display: grid;
+    grid-template-columns:[com-1-start] repeat(5,1fr)[com-1-end] 2rem [com-2-start] repeat(3,1fr)[com-2-end]2rem;
+    grid-template-rows: 10vh repeat(2,1fr);
+    border-radius: 2rem;
+   
+    grid-row-gap: 2rem;
+    
+
+
+
+}

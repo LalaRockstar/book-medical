@@ -1,0 +1,71 @@
+.admin__bar{
+    grid-column: com-1-start/com-2-end;
+    grid-row: 1/2;
+    background-color: rgba(138, 231, 231, 0.212);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    
+    font-weight: 500;
+}
+.admin__com__1{
+    grid-column: com-1-start/com-1-end;
+    grid-row:2/3;
+    background-color: rgba(138, 231, 231, 0.212);
+    border-radius: 2rem;
+
+}
+.admin__com__2{
+    grid-column: com-1-start/com-1-end;
+    grid-row: 3/4;
+    background-color: rgba(138, 231, 231, 0.212);
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+}
+.admin__com__3{
+    grid-column: com-2-start/com-2-end;
+    grid-row:2/3;
+    background-color: rgba(138, 231, 231, 0.212);
+    border-radius: 2rem;
+}
+.admin__com__4{
+    grid-column: com-2-start/com-2-end;
+    grid-row:3/4;
+    background-color: rgba(138, 231, 231, 0.212);
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+
+}
+.patient__list__header{
+    display: flex;
+    justify-content: space-around;
+}
+.patient__list{
+    display: flex;
+    justify-content: space-between;
+}
+.patient__appointment{
+    grid-column: com-1-start/com-2-end;
+    grid-row: 2/4;
+    background-color: rgba(138, 231, 231, 0.212);
+    overflow-y: scroll;
+    margin-bottom: 2rem;
+
+}
+.patient__app__list{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+    border-bottom: 1px solid black;
+   
+}
+.report__btn{
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    color:white;
+    background-color: aqua;
+
+}

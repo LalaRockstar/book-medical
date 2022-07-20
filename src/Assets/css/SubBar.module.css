@@ -1,0 +1,32 @@
+.sub__menu{
+    min-height: 8rem;
+    height: 10vh;
+    max-height: 10rem;
+
+    background-color: #fff;
+    border-bottom-color: aqua;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    align-items: center;
+   
+   
+}
+.logo{
+
+}
+.lists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 3rem;
+    color: rgba(0, 0, 0, 0.76);
+    padding: 2rem 2rem;
+    font-weight: 600;
+    
+   
+}
+.list{
+    padding: 0 3rem;
+}

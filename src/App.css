@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  
+}
+
+.container{
+  height: 80vh;
+}
+.admin__container{
+  display: grid;
+  grid-template-columns: [sidebar-start] 20vw [sidebar-end] 2rem [full-start] repeat(8,1fr) [full-end];
+  grid-template-rows: 10vh 2vh 86vh 2vh;
+}
+label{
+  margin:2rem 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.list{
+  margin: 1rem 1rem;
+  
+  padding: 1rem 2rem;
+  align-self: flex-start;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color:white
+}
+a{
+  list-style: none;
+  text-decoration: none;
+
+}
+a:hover{
+  color:red
+}
+.insight{
+  background-color: red;
+}
+.today__appointment{
+  background-color: yellow;
+}
+span{
+  font-size: 1.7rem;
+ 
+}
+list{
+  font-size: 1.6rem;
+}
+.span__class{
+  color:rgba(226, 116, 43, 0.89)
+}

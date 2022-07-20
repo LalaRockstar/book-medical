@@ -1,0 +1,5 @@
+.admin__ui{
+    display: grid;
+    grid-template-columns:[sidebar-start]16rem[sidebar-end full-start] repeat(8,min-max(min-content))[full-end] ;
+  
+}
